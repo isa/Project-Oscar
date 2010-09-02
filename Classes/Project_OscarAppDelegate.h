@@ -7,12 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Three20/Three20.h>
 
-@interface Project_OscarAppDelegate : NSObject <UIApplicationDelegate> {
+@class HomeScreenViewController;
+
+@interface Project_OscarAppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate> {
     UIWindow *window;
+	IBOutlet UITabBarController *tabBarController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) UITabBarController *tabBarController;
 
 @end
 

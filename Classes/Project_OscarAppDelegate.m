@@ -7,20 +7,29 @@
 //
 
 #import "Project_OscarAppDelegate.h"
+#import "HomeScreenViewController.h"
 
 @implementation Project_OscarAppDelegate
 
-@synthesize window;
-
+@synthesize window, tabBarController;
 
 #pragma mark -
 #pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
-    // Override point for customization after application launch.
+    // Create navigation controller
+	HomeScreenViewController *homeViewController = [[HomeScreenViewController alloc] initWithNibName:@"HomeScreenViewController" bundle:nil];
+	UINavigationController *homeNavigationController = [[UINavigationController alloc] initWithRootViewController:homeViewController];
 	
+	tabBarController.viewControllers = [[NSArray alloc] initWithObjects:homeNavigationController, nil];
+	tabBarController.delegate = self;
+	
+	[window addSubview:tabBarController.view];	
     [window makeKeyAndVisible];
+	
+	[homeViewController release];
+	[homeNavigationController release];
 	
 	return YES;
 }
@@ -75,6 +84,8 @@
 
 
 - (void)dealloc {
+	[tabBarController release];
+
     [window release];
     [super dealloc];
 }

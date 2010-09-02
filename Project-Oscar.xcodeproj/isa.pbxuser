@@ -1,5 +1,19 @@
 // !$*UTF8*$!
 {
+	1D3623240D0F684500981E51 /* Project_OscarAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1041, 360}}";
+			sepNavSelRange = "{408, 0}";
+			sepNavVisRange = "{93, 447}";
+		};
+	};
+	1D3623250D0F684500981E51 /* Project_OscarAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1041, 1425}}";
+			sepNavSelRange = "{635, 0}";
+			sepNavVisRange = "{0, 354}";
+		};
+	};
 	1D6058900D05DD3D006BFB54 /* Project-Oscar */ = {
 		activeExec = 0;
 		executables = (
@@ -23,7 +37,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					285,
+					863,
 					20,
 					48,
 					43,
@@ -62,12 +76,137 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 303703080;
-			PBXWorkspaceStateSaveDate = 303703080;
+			PBXPerProjectTemplateStateSaveDate = 305080210;
+			PBXWorkspaceStateSaveDate = 305080210;
+		};
+		perUserProjectItems = {
+			4ADBFC2B122F32AF00C2C8A4 /* PBXTextBookmark */ = 4ADBFC2B122F32AF00C2C8A4 /* PBXTextBookmark */;
+			4ADBFC59122F357200C2C8A4 /* PBXTextBookmark */ = 4ADBFC59122F357200C2C8A4 /* PBXTextBookmark */;
+			4ADBFC5A122F357200C2C8A4 /* PBXTextBookmark */ = 4ADBFC5A122F357200C2C8A4 /* PBXTextBookmark */;
+			4ADBFC5B122F357200C2C8A4 /* PBXTextBookmark */ = 4ADBFC5B122F357200C2C8A4 /* PBXTextBookmark */;
+			4ADBFC5C122F357200C2C8A4 /* PBXTextBookmark */ = 4ADBFC5C122F357200C2C8A4 /* PBXTextBookmark */;
+			4ADBFC5D122F357200C2C8A4 /* PlistBookmark */ = 4ADBFC5D122F357200C2C8A4 /* PlistBookmark */;
+			4ADBFC5E122F357200C2C8A4 /* PBXTextBookmark */ = 4ADBFC5E122F357200C2C8A4 /* PBXTextBookmark */;
+			4ADBFC5F122F357200C2C8A4 /* PBXTextBookmark */ = 4ADBFC5F122F357200C2C8A4 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 4ADC4B54121A2447008FB368 /* Source Control */;
 		userBuildSettings = {
 		};
+	};
+	32CA4F630368D1EE00C91783 /* Project_Oscar_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1041, 243}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 195}";
+		};
+	};
+	4ADBFB6E122F298800C2C8A4 /* HomeScreenViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1041, 270}}";
+			sepNavSelRange = "{209, 24}";
+			sepNavVisRange = "{0, 264}";
+		};
+	};
+	4ADBFB6F122F298800C2C8A4 /* HomeScreenViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1041, 900}}";
+			sepNavSelRange = "{219, 0}";
+			sepNavVisRange = "{140, 357}";
+			sepNavWindowFrame = "{{15, 309}, {984, 564}}";
+		};
+	};
+	4ADBFC15122F31DB00C2C8A4 /* TTURLNavigatorPattern.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = TTURLNavigatorPattern.m;
+		path = "/Users/isa/Desktop/Projects/Project-Oscar/Frameworks/Three20/src/Three20UINavigator/Sources/TTURLNavigatorPattern.m";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {706, 7170}}";
+			sepNavSelRange = "{14446, 24}";
+			sepNavVisRange = "{13903, 358}";
+		};
+	};
+	4ADBFC2B122F32AF00C2C8A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4ADBFC15122F31DB00C2C8A4 /* TTURLNavigatorPattern.m */;
+		name = "TTURLNavigatorPattern.m: 458";
+		rLen = 24;
+		rLoc = 14446;
+		rType = 0;
+		vrLen = 1132;
+		vrLoc = 13369;
+	};
+	4ADBFC59122F357200C2C8A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Project_OscarAppDelegate.m */;
+		name = "Project_OscarAppDelegate.m: 22";
+		rLen = 0;
+		rLoc = 635;
+		rType = 0;
+		vrLen = 354;
+		vrLoc = 0;
+	};
+	4ADBFC5A122F357200C2C8A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* Project_OscarAppDelegate.h */;
+		name = "Project_OscarAppDelegate.h: 18";
+		rLen = 0;
+		rLoc = 408;
+		rType = 0;
+		vrLen = 447;
+		vrLoc = 93;
+	};
+	4ADBFC5B122F357200C2C8A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* Project_Oscar_Prefix.pch */;
+		name = "Project_Oscar_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 195;
+		vrLoc = 0;
+	};
+	4ADBFC5C122F357200C2C8A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4ADBFB6F122F298800C2C8A4 /* HomeScreenViewController.m */;
+		name = "HomeScreenViewController.m: 12";
+		rLen = 0;
+		rLoc = 219;
+		rType = 0;
+		vrLen = 357;
+		vrLoc = 140;
+	};
+	4ADBFC5D122F357200C2C8A4 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Project_Oscar-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/isa/Desktop/Projects/Project-Oscar/Project_Oscar-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	4ADBFC5E122F357200C2C8A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4ADBFB6E122F298800C2C8A4 /* HomeScreenViewController.h */;
+		name = "HomeScreenViewController.h: 13";
+		rLen = 24;
+		rLoc = 209;
+		rType = 0;
+		vrLen = 264;
+		vrLoc = 0;
+	};
+	4ADBFC5F122F357200C2C8A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4ADBFB6E122F298800C2C8A4 /* HomeScreenViewController.h */;
+		name = "HomeScreenViewController.h: 13";
+		rLen = 24;
+		rLoc = 209;
+		rType = 0;
+		vrLen = 264;
+		vrLoc = 0;
 	};
 	4ADC4B4A121A2428008FB368 /* Project-Oscar */ = {
 		isa = PBXExecutable;
